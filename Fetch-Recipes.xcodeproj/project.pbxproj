@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		D58B6C9C2AFECA37004E0362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6C9B2AFECA37004E0362 /* AppDelegate.swift */; };
 		D58B6C9E2AFECA37004E0362 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6C9D2AFECA37004E0362 /* SceneDelegate.swift */; };
-		D58B6CA02AFECA37004E0362 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6C9F2AFECA37004E0362 /* ViewController.swift */; };
+		D58B6CA02AFECA37004E0362 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6C9F2AFECA37004E0362 /* MainViewController.swift */; };
 		D58B6CA32AFECA37004E0362 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58B6CA12AFECA37004E0362 /* Main.storyboard */; };
 		D58B6CA52AFECA3B004E0362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58B6CA42AFECA3B004E0362 /* Assets.xcassets */; };
 		D58B6CA82AFECA3B004E0362 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58B6CA62AFECA3B004E0362 /* LaunchScreen.storyboard */; };
+		D58B6CB52AFEE59F004E0362 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CB42AFEE59F004E0362 /* CategoryTableViewController.swift */; };
+		D58B6CBC2AFEF1DB004E0362 /* CategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CBB2AFEF1DB004E0362 /* CategoryManager.swift */; };
+		D58B6CBE2AFEF8F3004E0362 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CBD2AFEF8F3004E0362 /* CategoryModel.swift */; };
+		D58B6CC02AFEF99B004E0362 /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CBF2AFEF99B004E0362 /* CategoryData.swift */; };
+		D58B6CC22AFF40FD004E0362 /* FilterCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CC12AFF40FD004E0362 /* FilterCategoryTableViewController.swift */; };
+		D58B6CC52AFF47C1004E0362 /* FilterCategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CC42AFF47C1004E0362 /* FilterCategoryManager.swift */; };
+		D58B6CC82AFF4961004E0362 /* FilterCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CC72AFF4961004E0362 /* FilterCategoryModel.swift */; };
+		D58B6CCA2AFF4978004E0362 /* FilterCategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CC92AFF4978004E0362 /* FilterCategoryData.swift */; };
+		D58B6CCC2B002186004E0362 /* MealManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CCB2B002186004E0362 /* MealManager.swift */; };
+		D58B6CCF2B00219F004E0362 /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CCE2B00219F004E0362 /* MealModel.swift */; };
+		D58B6CD12B0021AB004E0362 /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CD02B0021AB004E0362 /* MealData.swift */; };
+		D58B6CD32B002DB5004E0362 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CD22B002DB5004E0362 /* MealTableViewController.swift */; };
+		D58B6CD52B01830E004E0362 /* IDTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CD42B01830E004E0362 /* IDTableViewController.swift */; };
+		D58B6CDA2B01C5ED004E0362 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B6CD92B01C5ED004E0362 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D58B6C982AFECA37004E0362 /* Fetch-Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch-Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58B6C9B2AFECA37004E0362 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D58B6C9D2AFECA37004E0362 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D58B6C9F2AFECA37004E0362 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D58B6C9F2AFECA37004E0362 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D58B6CA22AFECA37004E0362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D58B6CA42AFECA3B004E0362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D58B6CA72AFECA3B004E0362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D58B6CA92AFECA3B004E0362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58B6CB42AFEE59F004E0362 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		D58B6CBB2AFEF1DB004E0362 /* CategoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManager.swift; sourceTree = "<group>"; };
+		D58B6CBD2AFEF8F3004E0362 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		D58B6CBF2AFEF99B004E0362 /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
+		D58B6CC12AFF40FD004E0362 /* FilterCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCategoryTableViewController.swift; sourceTree = "<group>"; };
+		D58B6CC42AFF47C1004E0362 /* FilterCategoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCategoryManager.swift; sourceTree = "<group>"; };
+		D58B6CC72AFF4961004E0362 /* FilterCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCategoryModel.swift; sourceTree = "<group>"; };
+		D58B6CC92AFF4978004E0362 /* FilterCategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCategoryData.swift; sourceTree = "<group>"; };
+		D58B6CCB2B002186004E0362 /* MealManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealManager.swift; sourceTree = "<group>"; };
+		D58B6CCE2B00219F004E0362 /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
+		D58B6CD02B0021AB004E0362 /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+		D58B6CD22B002DB5004E0362 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		D58B6CD42B01830E004E0362 /* IDTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDTableViewController.swift; sourceTree = "<group>"; };
+		D58B6CD92B01C5ED004E0362 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,77 @@
 		D58B6C9A2AFECA37004E0362 /* Fetch-Recipes */ = {
 			isa = PBXGroup;
 			children = (
+				D58B6CBA2AFEF1C6004E0362 /* Model */,
+				D58B6CB12AFECA8C004E0362 /* View */,
+				D58B6CB02AFECA75004E0362 /* Controller */,
 				D58B6C9B2AFECA37004E0362 /* AppDelegate.swift */,
 				D58B6C9D2AFECA37004E0362 /* SceneDelegate.swift */,
-				D58B6C9F2AFECA37004E0362 /* ViewController.swift */,
-				D58B6CA12AFECA37004E0362 /* Main.storyboard */,
 				D58B6CA42AFECA3B004E0362 /* Assets.xcassets */,
 				D58B6CA62AFECA3B004E0362 /* LaunchScreen.storyboard */,
 				D58B6CA92AFECA3B004E0362 /* Info.plist */,
 			);
 			path = "Fetch-Recipes";
+			sourceTree = "<group>";
+		};
+		D58B6CB02AFECA75004E0362 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D58B6C9F2AFECA37004E0362 /* MainViewController.swift */,
+				D58B6CB42AFEE59F004E0362 /* CategoryTableViewController.swift */,
+				D58B6CC12AFF40FD004E0362 /* FilterCategoryTableViewController.swift */,
+				D58B6CD22B002DB5004E0362 /* MealTableViewController.swift */,
+				D58B6CD42B01830E004E0362 /* IDTableViewController.swift */,
+				D58B6CD92B01C5ED004E0362 /* WelcomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D58B6CB12AFECA8C004E0362 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D58B6CA12AFECA37004E0362 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D58B6CBA2AFEF1C6004E0362 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D58B6CC32AFF479D004E0362 /* CategoryModel */,
+				D58B6CC62AFF47C6004E0362 /* FilterCategoryModel */,
+				D58B6CCD2B00218C004E0362 /* MealModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D58B6CC32AFF479D004E0362 /* CategoryModel */ = {
+			isa = PBXGroup;
+			children = (
+				D58B6CBB2AFEF1DB004E0362 /* CategoryManager.swift */,
+				D58B6CBF2AFEF99B004E0362 /* CategoryData.swift */,
+				D58B6CBD2AFEF8F3004E0362 /* CategoryModel.swift */,
+			);
+			path = CategoryModel;
+			sourceTree = "<group>";
+		};
+		D58B6CC62AFF47C6004E0362 /* FilterCategoryModel */ = {
+			isa = PBXGroup;
+			children = (
+				D58B6CC42AFF47C1004E0362 /* FilterCategoryManager.swift */,
+				D58B6CC72AFF4961004E0362 /* FilterCategoryModel.swift */,
+				D58B6CC92AFF4978004E0362 /* FilterCategoryData.swift */,
+			);
+			path = FilterCategoryModel;
+			sourceTree = "<group>";
+		};
+		D58B6CCD2B00218C004E0362 /* MealModel */ = {
+			isa = PBXGroup;
+			children = (
+				D58B6CCB2B002186004E0362 /* MealManager.swift */,
+				D58B6CCE2B00219F004E0362 /* MealModel.swift */,
+				D58B6CD02B0021AB004E0362 /* MealData.swift */,
+			);
+			path = MealModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +228,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58B6CA02AFECA37004E0362 /* ViewController.swift in Sources */,
+				D58B6CC22AFF40FD004E0362 /* FilterCategoryTableViewController.swift in Sources */,
+				D58B6CA02AFECA37004E0362 /* MainViewController.swift in Sources */,
+				D58B6CD32B002DB5004E0362 /* MealTableViewController.swift in Sources */,
+				D58B6CD12B0021AB004E0362 /* MealData.swift in Sources */,
+				D58B6CC02AFEF99B004E0362 /* CategoryData.swift in Sources */,
+				D58B6CDA2B01C5ED004E0362 /* WelcomeViewController.swift in Sources */,
+				D58B6CBC2AFEF1DB004E0362 /* CategoryManager.swift in Sources */,
+				D58B6CC52AFF47C1004E0362 /* FilterCategoryManager.swift in Sources */,
+				D58B6CC82AFF4961004E0362 /* FilterCategoryModel.swift in Sources */,
+				D58B6CB52AFEE59F004E0362 /* CategoryTableViewController.swift in Sources */,
+				D58B6CCA2AFF4978004E0362 /* FilterCategoryData.swift in Sources */,
+				D58B6CD52B01830E004E0362 /* IDTableViewController.swift in Sources */,
 				D58B6C9C2AFECA37004E0362 /* AppDelegate.swift in Sources */,
+				D58B6CCF2B00219F004E0362 /* MealModel.swift in Sources */,
+				D58B6CCC2B002186004E0362 /* MealManager.swift in Sources */,
+				D58B6CBE2AFEF8F3004E0362 /* CategoryModel.swift in Sources */,
 				D58B6C9E2AFECA37004E0362 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PYLV85Q7ZR;
@@ -318,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PYLV85Q7ZR;
