@@ -24,7 +24,6 @@ struct MealManager{
     
     func createURLByID(id: String){
         let fullURL = "\(filterCategoryURL)lookup.php?i=\(id)"
-        print(fullURL)
         
         performRequest(url: fullURL)
     }

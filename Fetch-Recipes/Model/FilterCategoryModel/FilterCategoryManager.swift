@@ -25,7 +25,6 @@ struct FilterCategoryManager{
     
     func createURLByName(name: String){
         let fullURL = "\(filterCategoryURL)search.php?s=\(name)"
-        print(fullURL)
         performRequest(url: fullURL)
     }
     

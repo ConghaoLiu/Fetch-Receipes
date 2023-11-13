@@ -21,7 +21,6 @@ class IDTableViewController: UITableViewController, UpdateMealDelegate, UpdateFi
         DispatchQueue.main.async{
             self.filterCategoryModel = category
             self.mealNames = self.filterCategoryModel.filterCategoryNames
-            print(self.mealNames)
             self.tableView.reloadData()
         }
     }
@@ -29,6 +28,7 @@ class IDTableViewController: UITableViewController, UpdateMealDelegate, UpdateFi
     func didUpdataMeal(category: MealModel) {
         DispatchQueue.main.async{
             self.mealModel = category
+            self.mealNames = []
             self.mealNames.append(self.mealModel.mealName)
             self.tableView.reloadData()
         }
@@ -77,7 +77,6 @@ extension IDTableViewController: UISearchBarDelegate{
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let idText = searchBar.text, !idText.isEmpty else {return}
-        print(idText)
         if Int(idText) != nil{
             mealManager.createURLByID(id: idText)
             

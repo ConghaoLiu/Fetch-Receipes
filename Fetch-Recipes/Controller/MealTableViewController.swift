@@ -17,7 +17,6 @@ class MealTableViewController: UITableViewController, UpdateMealDelegate {
             
             self.arrayIngredientMeasure = self.mealModel.mealIngredientMeasure.map{[$0.key: $0.value]}
             self.tableView.reloadData()
-            print(self.arrayIngredientMeasure)
         }
         
         
